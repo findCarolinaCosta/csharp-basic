@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamInterface.Test", "TeamI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamInterface", "TeamInterface\TeamInterface.csproj", "{3E66EC77-E6C0-4D78-8657-40934939CDB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreNotes.Test", "StoreNotes.Test\StoreNotes.Test.csproj", "{AEF01C9B-D446-4CEA-BE17-7DCB19F6DD7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreNotes", "StoreNotes\StoreNotes.csproj", "{58BCCB0B-2F55-4B58-BF67-0C582C3BC1F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{3E66EC77-E6C0-4D78-8657-40934939CDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E66EC77-E6C0-4D78-8657-40934939CDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E66EC77-E6C0-4D78-8657-40934939CDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF01C9B-D446-4CEA-BE17-7DCB19F6DD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF01C9B-D446-4CEA-BE17-7DCB19F6DD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF01C9B-D446-4CEA-BE17-7DCB19F6DD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF01C9B-D446-4CEA-BE17-7DCB19F6DD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BCCB0B-2F55-4B58-BF67-0C582C3BC1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BCCB0B-2F55-4B58-BF67-0C582C3BC1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BCCB0B-2F55-4B58-BF67-0C582C3BC1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BCCB0B-2F55-4B58-BF67-0C582C3BC1F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
