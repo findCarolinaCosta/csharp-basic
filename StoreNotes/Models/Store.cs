@@ -40,7 +40,12 @@ namespace StoreNotes.Models
         {
             if (statesValid.Contains(state))
             {
-                if (state == "active")
+                bool isCleanNotes = new List<List<string>> { activeNotes, completedNotes, othersNotes }.All(list => !list.Any());
+                if (isCleanNotes)
+                {
+                    Console.WriteLine("No Notes");
+                }
+                else if (state == "active")
                 {
                     return activeNotes;
                 }

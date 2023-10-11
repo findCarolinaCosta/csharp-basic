@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StoreNotes\StoreNotes.csproj" />
+    <ProjectReference Include="..\Helpers\Helpers.csproj" />
   </ItemGroup>
 
 </Project>
